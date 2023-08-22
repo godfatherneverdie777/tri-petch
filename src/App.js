@@ -1,25 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import HomePage from './pages/HomePage';
+import React from "react";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+      <HomePage />
     </div>
   );
 }
-
-export default App;
